@@ -90,10 +90,7 @@ export function Home() {
                 Fullstack Software Engineer / Solutions Architect
               </h2>
               <p className="text-lg text-white/60">
-                Innovative and detail-oriented Software Developer with 4 years of experience,
-                including 3 years of professional work in full-stack development and cloud
-                technologies. Known for delivering clean, scalable, and user-focused software
-                solutions.
+                Dynamic Factory Lead and Solutions Architect with over three years of experience delivering innovative software solutions across diverse projects. Expertise in frontend and backend development, complemented by a strong foundation in cloud technologies and DevOps practices. Proven ability to establish operational frameworks that enhance efficiency and drive project success. Adept at leading technical direction while maintaining strong client relationships, ensuring impactful delivery and exceptional user experiences. Committed to leveraging technical acumen and collaborative spirit to excel in a Fullstack Software Engineer or Solutions Architect role.
               </p>
             </motion.div>
 
