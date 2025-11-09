@@ -1,13 +1,25 @@
 import { motion } from 'motion/react';
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Gitlab, Linkedin, Mail } from 'lucide-react';
+import React from 'react';
 import { Logo } from './Logo';
-import { React } from 'react';
 
 export function Footer() {
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    {
+      icon: Github,
+      href: 'https://github.com/DennisMwangi1',
+      label: 'GitHub',
+    },
+    {
+      icon: Linkedin,
+      href: 'https://www.linkedin.com/in/dennis-kamau-mwangi/',
+      label: 'LinkedIn',
+    },
+    {
+      icon: Gitlab,
+      href: 'https://gitlab.com/dennis.kamau',
+      label: 'GitLab',
+    },
     { icon: Mail, href: 'mailto:denniskamau1803@gmail.com', label: 'Email' },
   ];
 

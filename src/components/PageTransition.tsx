@@ -1,8 +1,7 @@
+import React, { ReactNode } from 'react';
 import { motion } from 'motion/react';
-import { ReactNode } from 'react';
-import { React } from 'react';
 interface PageTransitionProps {
-  children: ReactNode;
+  readonly children: ReactNode;
 }
 
 export function PageTransition({ children }: PageTransitionProps) {

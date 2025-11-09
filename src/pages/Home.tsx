@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Download, Sparkles } from 'lucide-react';
@@ -147,12 +147,21 @@ export function Home() {
               </Link>
 
               <Button
+                asChild
                 size="lg"
                 variant="outline"
                 className="group border-[#00ff88]/50 text-[#00ff88] hover:bg-[#00ff88]/10"
               >
-                <Download size={20} className="mr-2" />
-                Resume
+                <a
+                  href="/Dennis-Mwangi-Resume.pdf"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center"
+                >
+                  <Download size={20} className="mr-2" />
+                  Resume
+                </a>
               </Button>
             </motion.div>
 
