@@ -19,7 +19,7 @@ export function Projects() {
       techStack: ['PostgreSQL', 'Express', 'React', 'Node.js', 'TypeScript'],
       image: VarsitySokoImage,
       liveUrl: 'https://varsitysoko.co.ke/',
-      codeUrl: '#',
+      codeUrl: 'https://gitlab.com/universitystudentsecommerceplatform/usep-web/-/tree/83b6c274253679a441bd5eec2fba85168db1ca64/',
     },
     {
       title: 'Kenya Universities Esports Ranking',
