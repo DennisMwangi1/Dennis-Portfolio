@@ -10,7 +10,7 @@ const ZappicImage = new URL('../assets/zappic-home.png', import.meta.url).href;
 const KaboriImage = new URL('../assets/kabori-home.png', import.meta.url).href;
 const HLCCImage = new URL('../assets/HLCC-home.png', import.meta.url).href;
 const NexusImage = new URL('../assets/nexus-home.png', import.meta.url).href;
-const IOCImage = new URL('../assets/IOC-africa.png', import.meta.url).href;
+const IOCImage = new URL('../assets/IOC-Africa.png', import.meta.url).href;
 export function Projects() {
   const projects = [
     {
