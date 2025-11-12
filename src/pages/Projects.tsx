@@ -10,6 +10,7 @@ const ZappicImage = new URL('../assets/zappic-home.png', import.meta.url).href;
 const KaboriImage = new URL('../assets/kabori-home.png', import.meta.url).href;
 const HLCCImage = new URL('../assets/HLCC-home.png', import.meta.url).href;
 const NexusImage = new URL('../assets/nexus-home.png', import.meta.url).href;
+const IOCImage = new URL('../assets/IOC-africa.png', import.meta.url).href;
 export function Projects() {
   const projects = [
     {
@@ -65,7 +66,17 @@ export function Projects() {
       image: NexusImage,
       liveUrl: 'https://nexus-omega-liart.vercel.app/',
       codeUrl: '#',
+    },
+    {
+      title: 'IOC Africa Platform (UNESCO PoC)',
+      description:
+        'Proof of Concept website redesign for the Intergovernmental Oceanographic Commission of UNESCO (IOC Africa). Built a modern, accessible interface to showcase programs in ocean observation, research, governance, and training. Implemented responsive layouts, reusable components, and content structure aligned with UNESCO’s branding and communication style.',
+      techStack: ['React', 'TypeScript', 'Tailwind CSS'],
+      image: IOCImage,
+      liveUrl: 'https://ioc-africa.vercel.app/',
+      codeUrl: 'https://github.com/DennisMwangi1/Iocpoc',
     }
+
   ];
 
   return (
